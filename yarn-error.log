@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-scripts
+
+PATH: 
+  C:\Users\XHuang\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\XHuang\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Java\zulu8.36.0.1-ca-jdk8.0.202-win_x64\bin;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\System32\OpenSSH;C:\Users\XHuang\AppData\Local\Microsoft\WindowsApps;C:\Users\XHuang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\XHuang\AppData\Roaming\npm;C:\Users\XHuang\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: write EPROTO 6848:error:14094419:SSL routines:ssl3_read_bytes:tlsv1 alert access denied:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1536:SSL alert number 49
+  
+      at WriteWrap.afterWrite [as oncomplete] (net.js:788:14)
+
+npm manifest: 
+  {
+    "name": "todomvc",
+    "version": "0.0.1",
+    "private": true,
+    "devDependencies": {
+      "react-scripts": "^3.0.0",
+      "react-test-renderer": "^16.8.6"
+    },
+    "dependencies": {
+      "classnames": "^2.2.6",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-redux": "^7.0.2",
+      "redux": "^4.0.1",
+      "reselect": "^4.0.0",
+      "todomvc-app-css": "^2.2.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "eject": "react-scripts eject",
+      "test": "react-scripts test --env=node"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
